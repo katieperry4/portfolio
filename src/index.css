@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  cursor: url(assets/cursor.png), auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.dark {
+  background-color: #171a21;
+  color: white;
+}
+
+.light {
+  background-color: #fffbfd;
+  color: #171a21;
+}
+
+.btn-dark {
+  background-color: #5d4ca9;
+}
+
+.btn-light {
+  background-color: #c4f1be;
+}
+
+.btn {
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 1rem;
+  font-weight: bold;
+  margin: 2rem;
+}
+
+.nav-logo {
+  font-family: AgletSans-SemiboldItalic, "Aglet Sans";
+}
+
+.nav-li {
+  margin: 1rem;
+}
+.nav-li:hover {
+  color: #c4f1be;
+  cursor: url(assets/cursor.png), auto;
+}
+
+.sidebar {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.banner-h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10vw;
+}
+
+.banner-h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 3px;
+}
+
+/* about */
+
+.expertise-div {
+  padding: 16px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.section-h1 {
+  font-size: 6vw;
+}
+
+/* work */
+.work-header {
+  font-size: 4vw;
+}
+
+.work-subheader {
+  font-size: 2vw;
+}
+
+.card:hover {
+  opacity: 80%;
+}
+
+/* dark mode slider */
+.switch {
+  position: sticky;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #5d4ca9;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #c4f1be;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #171a21;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* up button */
+
+#upButton {
+  /* display: none; */
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border-radius: 10px;
+}

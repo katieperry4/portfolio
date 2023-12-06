@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5d4ca9;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: AgletSans-SemiboldItalic, 'Aglet Sans';
+        font-size: 48px;
+        font-style: italic;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <circle class="cls-1" cx="43" cy="43" r="42.5"/>
+      <text class="cls-2" transform="translate(12.88 57.85)"><tspan x="0" y="0">KP</tspan></text>
+    </g>
+  </g>
+</svg>
