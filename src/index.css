@@ -44,8 +44,9 @@ html {
   margin: 1rem;
 }
 .nav-li:hover {
-  color: #c4f1be;
-  cursor: url(assets/cursor.png), auto;
+  color: #e5625e;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .sidebar {
@@ -76,12 +77,12 @@ html {
 }
 
 .section-h1 {
-  font-size: 6vw;
+  font-size: 4vw;
 }
 
 /* work */
 .work-header {
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 .work-subheader {

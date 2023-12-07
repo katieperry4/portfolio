@@ -16,7 +16,11 @@ const Navbar = () => {
       <nav className="flex flex-col md:flew-row justify-evenly items-center  ">
         <div className="flex items-center">
           <div>
-            <label className="switch md:mx-6 lg:mx-16">
+            <label
+              type="toggle"
+              aria-label="toggle"
+              className="switch md:mx-6 lg:mx-16"
+            >
               <input type="checkbox" onClick={toggleTheme} />
               <span
                 tabIndex={0}
@@ -33,7 +37,7 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <ul className="flex">
-              <a href="#home" className="nav-li">
+              <a href="/" className="nav-li">
                 Home
               </a>
               <a href="#about" className="nav-li">
@@ -49,6 +53,7 @@ const Navbar = () => {
           </div>
           <div className="md:hidden">
             <button
+              aria-label="menu"
               onClick={toggleNavbar}
               className="text-white focus:outline-none"
             >

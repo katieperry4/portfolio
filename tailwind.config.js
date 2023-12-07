@@ -14,8 +14,8 @@ export default {
         128: "32rem",
       },
       backgroundImage: {
-        "sea-image": "url('/deep-sea.jpg')",
-        "water-color": "url('/watercolor.jpg')",
+        "sea-image": "url('/deep-sea.webp')",
+        "water-color": "url('/watercolor.webp')",
       },
       content: {
         moon: "url('/moon.svg')",
