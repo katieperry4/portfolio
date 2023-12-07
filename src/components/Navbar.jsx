@@ -1,8 +1,10 @@
 import { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.svg";
+import logoDark from "../assets/logo-dark.svg";
 import Menu from "./Sidebar.jsx";
 import { ThemeContext } from "../Context/theme";
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const { dark, toggleTheme } = useContext(ThemeContext);
@@ -31,9 +33,14 @@ const Navbar = () => {
             </label>
           </div>
           <div>
-            <a href="/">
-              <img src={logo} alt="Katie Perry" className="w-2/3 nav-logo" />
-            </a>
+            <Link to="/">
+              <img
+                role="link"
+                src={dark ? logoDark : logo}
+                alt="Katie Perry"
+                className="w-2/3 nav-logo"
+              />
+            </Link>
           </div>
           <div className="hidden md:block">
             <ul className="flex">
@@ -55,10 +62,10 @@ const Navbar = () => {
             <button
               aria-label="menu"
               onClick={toggleNavbar}
-              className="text-white focus:outline-none"
+              className="text-white focus:outline-none w-10 h-10"
             >
               <svg
-                className="w-6 h-6"
+                className="w-10 h-10"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
