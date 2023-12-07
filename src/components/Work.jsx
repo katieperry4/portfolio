@@ -30,7 +30,7 @@ const Work = () => {
               }}
             >
               <img
-                className="rounded"
+                className="rounded w-full"
                 src={ombros}
                 alt="A screenshot of Ombros do Montejunto webpage"
               />
@@ -50,7 +50,7 @@ const Work = () => {
               }}
             >
               <img
-                className="rounded"
+                className="rounded w-full"
                 src={cmsBlog}
                 alt="A screenshot of my blog page"
               />
@@ -70,7 +70,7 @@ const Work = () => {
               }}
             >
               <img
-                className="rounded"
+                className="rounded w-full"
                 src={catFilter}
                 alt="A screenshot of my cat filter page"
               />
@@ -97,7 +97,7 @@ const Work = () => {
               }}
             >
               <img
-                className="rounded"
+                className="rounded w-full"
                 src={memory}
                 alt="A screenshot of my memory game page"
               />
@@ -118,7 +118,7 @@ const Work = () => {
               }}
             >
               <img
-                className="rounded"
+                className="rounded w-full"
                 src={colors}
                 alt="A screenshot of my color palette page"
               />
