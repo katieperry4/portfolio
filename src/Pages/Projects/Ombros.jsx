@@ -16,9 +16,9 @@ const Ombros = () => {
   return (
     <>
       <Arrow />
-      <div className="flex ">
+      <div className="flex">
         {/* sidebar */}
-        <div>
+        <div className="fixed hidden md:block">
           <button
             onClick={() => history.back()}
             className={`btn ${
@@ -31,12 +31,12 @@ const Ombros = () => {
           </button>
         </div>
         {/* main content */}
-        <div>
-          <div className="flex flex-col md:flex-row py-20 px-6">
+        <div className="md:mx-12">
+          <div className="flex flex-col items-center lg:flex-row py-20 md:mx-32">
             {/* text */}
             <div className="w-3/5">
-              <h1 className="work-header">Ombros do Montejunto</h1>
-              <p className="w-3/5 pl-6">
+              <h1 className="work-header underline">Ombros do Montejunto</h1>
+              <p className="w-4/5 pl-6">
                 Ombros do Montejunto, a new winery situated just 40 minutes from
                 Lisbon, is a passionate family endeavor. Taking charge of their
                 digital footprint, I shaped their visual identity—crafting a
@@ -68,7 +68,7 @@ const Ombros = () => {
                 </button>
               </Link>
             </div>
-            <div className="flex items-center">
+            <div className="items-center hidden sm:block">
               <img
                 className="w-full opacity-70 hover:opacity-100"
                 src={dark ? ombrosWhite : ombrosBlack}
@@ -76,38 +76,116 @@ const Ombros = () => {
               />
             </div>
           </div>
+          {/* testimonial */}
+          <div
+            className={`md:mx-32 rounded p-4 ${
+              dark ? "bg-violet" : "bg-light-red"
+            }`}
+          >
+            <blockquote className="flex flex-col items-center">
+              <p className="w-1/2 italic text-lg">
+                "We are really impressed with the speed and quality of Katie’s
+                work. She listens carefully to the clients needs but also does
+                her homework and is not afraid to come forward with suggestions
+                of her own."
+              </p>
+              <cite>-Ombros do Montejunto</cite>
+            </blockquote>
+          </div>
           {/* pictures */}
-          <div className="flex flex-col items-center justify-center py-12 gap-24">
+          <div className="flex flex-col items-center justify-center py-12 gap-12 md:gap-24">
             {/* branding and UX*/}
             <h3 className="work-subheader">UX and Branding</h3>
-            <div className="flex flex-col md:flex-row gap-2 items-center">
+            {/* branding */}
+            <div className="flex flex-col items-center md:items-start md:flex-row gap-4 justify-center">
+              <p className="w-1/2 md:w-1/3">
+                Crafting the brand identity for Ombros do Montejunto was a
+                nuanced process that aimed to encapsulate the essence of family,
+                heritage, and the stunning Montejunto mountain range. The logo
+                design ingeniously weaves together the 'O' of Ombros, the 'D' of
+                do, and the 'M' for Montejunto as an abstract representation of
+                the mountain range where their vineyards thrive.
+                <br></br>
+                <br></br>
+                The color palette, predominantly greens and blues, echoes their
+                core values—sincerity, luxury, quality, tangibility, and
+                integrity. Each element meticulously harmonizes to convey their
+                deep connection to nature and commitment to excellence.
+              </p>
               <img
-                className="w-1/2 rounded"
+                className="w-1/3 rounded"
                 src={ombrosBranding}
                 alt="a screenshot of the branding page, showing logo options and color palettes"
               />
+            </div>
+            {/* information architecture  */}
+            <div className="flex flex-col items-center md:items-start md:flex-row gap-4 justify-center">
               <img
-                className="w-1/2 rounded"
+                className="w-1/3 rounded"
                 src={ombrosIA}
                 alt="information architecture for the site layout"
               />
+              <p className="w-1/2 md:w-1/3">
+                The architecture of the website was meticulously structured to
+                offer an intuitive navigation experience. Strategically laying
+                out information, every section was thoughtfully positioned to
+                ensure easy access and seamless exploration. This deliberate
+                arrangement empowers visitors to effortlessly find crucial
+                details about the winery's heritage, offerings, and story,
+                emphasizing clarity and user convenience.
+              </p>
             </div>
-            <div className="flex flex-col items-center gap-6">
-              <h3 className="work-subheader">Wireframe</h3>
+            {/* wireframe */}
+            <h3 className="work-subheader">Wireframe</h3>
+            <div className="flex flex-col items-center md:items-start md:flex-row gap-4 justify-center">
+              <p className="w-1/2 md:w-1/3">
+                Visualizing the website's layout commenced with crafting a
+                wireframe, offering a sneak peek into the envisioned design. The
+                homepage, a cornerstone of the online presence, was sketched to
+                highlight the family's story, embracing a user-friendly layout.
+                This wireframe serves as a blueprint, outlining the site's
+                envisioned structure and functionality.
+              </p>
               <img
-                className="w-3/5 rounded"
+                className="w-1/4 rounded"
                 src={ombrosWire}
                 alt="wireframe laying out the potential look of the site"
               />
             </div>
-            <div className="flex flex-col items-center gap-6">
-              <h3 className="work-subheader">Coded Site</h3>
+            {/* coded site */}
+            <h3 className="work-subheader">Coded Site</h3>
+            <div className="flex flex-col items-center md:items-start md:flex-row gap-4 justify-center">
               <img
-                className="w-3/5 rounded"
+                className="w-1/4 rounded"
                 src={ombrosHome}
                 alt="the coded version of the site, albeit not 100% finished"
               />
+              <p className="w-1/2 md:w-1/3">
+                The culmination of design and development efforts resulted in
+                the captivating final site. This dynamic digital space
+                spotlights the family's narrative, inviting visitors into their
+                world. A focal point is the incorporation of a mailing list, a
+                blog, and an Instagram widget, fostering engagement and allowing
+                enthusiasts to follow the winery's exciting journey. The
+                homepage reflects a harmonious blend of aesthetics and
+                functionality, encapsulating the essence of Ombros do
+                Montejunto's evolving identity.
+              </p>
             </div>
+            <Link
+              to="https://dapper-brigadeiros-9bb1c4.netlify.app/"
+              target="_blank"
+            >
+              <button
+                className={`btn ${
+                  dark
+                    ? "bg-violet hover:bg-light-red"
+                    : "bg-tea-green hover:bg-light-red"
+                }`}
+              >
+                Live Site
+              </button>
+            </Link>
           </div>
         </div>
       </div>

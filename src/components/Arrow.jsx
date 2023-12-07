@@ -1,18 +1,27 @@
+import { useEffect } from "react";
 const Arrow = () => {
-  const upButton = document.getElementById("upButton");
-  window.onscroll = function () {
-    scrollFunction();
-  };
-  const scrollFunction = () => {
-    if (
-      document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20
-    ) {
-      upButton.style.display = "block";
-    } else {
-      upButton.style.display = "none";
-    }
-  };
+  useEffect(() => {
+    const upButton = document.getElementById("upButton");
+    const scrollFunction = () => {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        upButton.style.display = "block";
+      } else {
+        upButton.style.display = "none";
+      }
+    };
+
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    return () => {
+      window.onscroll = null; // Cleanup when component unmounts
+    };
+  }, []); // Empty dependency array means this runs once after initial render
+
   const upFunction = () => {
     // document.body.scrollTop = 0;
     // document.documentElement.scrollTop = 0;
@@ -22,7 +31,7 @@ const Arrow = () => {
     <button
       id="upButton"
       onClick={() => upFunction()}
-      className="px-4 pt-2 text-4xl bg-light-red"
+      className="px-4 pt-2 text-4xl bg-light-red z-10"
     >
       ^
     </button>

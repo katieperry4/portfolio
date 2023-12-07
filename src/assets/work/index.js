@@ -1,11 +1,12 @@
 import cmsBlog from "./cms-blog.webp";
+import cmsContent from "./contentful.webp";
 import colors from "./colors.webp";
 import memory from "./memory.webp";
 import ombros from "./ombros.webp";
-import ombrosHome from "./ombros-home.png";
-import ombrosBranding from "./ombros-branding.png";
-import ombrosIA from "./ombros-ia.png";
-import ombrosWire from "./ombros-wire.png";
+import ombrosHome from "./ombros-home.webp";
+import ombrosBranding from "./ombros-branding.webp";
+import ombrosIA from "./ombros-ia.webp";
+import ombrosWire from "./ombros-wire.webp";
 import ombrosBlack from "./ombros-black.svg";
 import ombrosWhite from "./ombros-white.svg";
 import catFilter from "./cat-filter.webp";
@@ -26,4 +27,5 @@ export {
   ombrosBlack,
   cmsHome,
   catHome,
+  cmsContent,
 };

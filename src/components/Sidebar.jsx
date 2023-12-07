@@ -2,16 +2,16 @@ const Menu = () => {
   return (
     <div className="md:hidden h-screen mt-32">
       <ul className="flex flex-col">
-        <a href="#home" className="nav-li">
+        <a href="/" className="nav-li">
           Home
         </a>
-        <a href="#about" className="nav-li">
+        <a href="/#about" className="nav-li">
           About
         </a>
-        <a href="#work" className="nav-li">
+        <a href="/#work" className="nav-li">
           Work
         </a>
-        <a href="#contact" className="nav-li">
+        <a href="/#contact" className="nav-li">
           Contact
         </a>
       </ul>

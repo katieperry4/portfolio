@@ -32,7 +32,7 @@ const Navbar = () => {
               ></span>
             </label>
           </div>
-          <div>
+          <div className="hidden md:block">
             <Link to="/">
               <img
                 role="link"
@@ -47,13 +47,13 @@ const Navbar = () => {
               <a href="/" className="nav-li">
                 Home
               </a>
-              <a href="#about" className="nav-li">
+              <a href="/#about" className="nav-li">
                 About
               </a>
-              <a href="#work" className="nav-li">
+              <a href="/#work" className="nav-li">
                 Work
               </a>
-              <a href="#contact" className="nav-li">
+              <a href="/#contact" className="nav-li">
                 Contact
               </a>
             </ul>

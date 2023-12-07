@@ -3,8 +3,8 @@ import { cmsBlog, colors, memory, catFilter } from "../assets/work";
 import ombros from "../assets/work/ombros.webp";
 const Work = () => {
   return (
-    <div id="work" className="m-6 md:m-12">
-      <h1 className="underline section-h1">Work</h1>
+    <div id="work" className="m-6 md:m-32">
+      <h2 className="underline section-h1">Work</h2>
       <div className="py-4">
         <p className="w-1/2">
           Welcome to my portfolio! Here, I showcase a blend of personal and
@@ -16,7 +16,7 @@ const Work = () => {
       </div>
       {/* React Projects */}
       <div className="py-12">
-        <h2 className="work-header">React Projects</h2>
+        <h3 className="work-header">React Projects</h3>
         <ul className="flex flex-col md:flex-row gap-8 md:gap-4">
           <li className="flex flex-col work-li card">
             <Link
@@ -34,7 +34,7 @@ const Work = () => {
                 src={ombros}
                 alt="A screenshot of Ombros do Montejunto webpage"
               />
-              <h3 className="text-2xl">Ombros do Montejunto</h3>
+              <h4 className="text-2xl">Ombros do Montejunto</h4>
               <h4>Branding, UX, and Web Development</h4>
             </Link>
           </li>
@@ -74,15 +74,15 @@ const Work = () => {
                 src={catFilter}
                 alt="A screenshot of my cat filter page"
               />
-              <h3 className="text-2xl">Cat Filter</h3>
-              <h4>Web Development</h4>
+              <h4 className="text-2xl">Cat Filter</h4>
+              <h5>Web Development</h5>
             </Link>
           </li>
         </ul>
       </div>
       {/* JS Projects */}
       <div className="py-12">
-        <h2 className="work-header">JavaScript Projects</h2>
+        <h3 className="work-header">JavaScript Projects</h3>
         <ul className="flex flex-col md:flex-row gap-8 md:gap-4">
           {/* memory */}
           <li className="flex flex-col work-li card">
@@ -101,8 +101,8 @@ const Work = () => {
                 src={memory}
                 alt="A screenshot of my memory game page"
               />
-              <h3 className="text-2xl">Memory Game</h3>
-              <h4>Web Development</h4>
+              <h4 className="text-2xl">Memory Game</h4>
+              <h5>Web Development</h5>
             </Link>
           </li>
           {/* colors */}
@@ -122,8 +122,8 @@ const Work = () => {
                 src={colors}
                 alt="A screenshot of my color palette page"
               />
-              <h3 className="text-2xl">Color Palette</h3>
-              <h4>Web Development</h4>
+              <h4 className="text-2xl">Color Palette</h4>
+              <h5>Web Development</h5>
             </Link>
           </li>
         </ul>

@@ -4,4 +4,5 @@ import About from "./About";
 import Footer from "./Footer";
 import Arrow from "./Arrow";
 import Work from "./Work";
-export { Navbar, Banner, About, Footer, Arrow, Work };
+import Testimonials from "./Testimonials";
+export { Navbar, Banner, About, Footer, Arrow, Work, Testimonials };

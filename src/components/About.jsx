@@ -5,7 +5,7 @@ const About = () => {
   const { dark } = useContext(ThemeContext);
   return (
     <div id="about" className="flex flex-col items-center pt-24 pb-44 px-32 ">
-      <h1 className="section-h1 underline mb-12 ">Expertise</h1>
+      <h2 className="section-h1 underline mb-12 ">Expertise</h2>
       <div className="flex flex-col  md:justify-evenly lg:flex-row gap-12">
         <div
           className={`expertise-div ${
@@ -14,9 +14,9 @@ const About = () => {
               : "transition ease-in-out hover:bg-tea-green"
           }`}
         >
-          <h2 className="banner-h3 underline text-xl py-4">
+          <h3 className="banner-h3 underline text-xl py-4">
             Frontend Development
-          </h2>
+          </h3>
           <p>
             —a web developer well-versed in HTML, CSS, JavaScript, React,
             Tailwind, Git, and basic SQL. My expertise lies in front-end
@@ -33,7 +33,7 @@ const About = () => {
               : "transition ease-in-out hover:bg-tea-green"
           }`}
         >
-          <h2 className="banner-h3 underline text-xl py-4 ">UX</h2>
+          <h3 className="banner-h3 underline text-xl py-4 ">UX</h3>
           <p>
             -blending a background in graphic design with a keen understanding
             of user experience. My approach is rooted in empathy and user
@@ -50,7 +50,7 @@ const About = () => {
               : "transition ease-in-out hover:bg-tea-green"
           }`}
         >
-          <h2 className="banner-h3 underline text-xl py-4">Graphic Design</h2>
+          <h3 className="banner-h3 underline text-xl py-4">Graphic Design</h3>
           <p>
             —an experienced graphic designer with a knack for captivating visual
             storytelling. Proficient in creating aesthetically pleasing designs,
