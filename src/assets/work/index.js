@@ -10,7 +10,7 @@ import ombrosWire from "./ombros-wire.webp";
 import ombrosBlack from "./ombros-black.svg";
 import ombrosWhite from "./ombros-white.svg";
 import catFilter from "./cat-filter.webp";
-import catHome from "./cat-home.png";
+import catHome from "./cat-home.webp";
 
 export {
   cmsBlog,
