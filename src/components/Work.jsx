@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { cmsBlog, colors, memory, catFilter } from "../assets/work";
-import ombros from "../assets/work/ombros.png";
+import ombros from "../assets/work/ombros.webp";
 const Work = () => {
   return (
     <div id="work" className="m-6 md:m-12">
