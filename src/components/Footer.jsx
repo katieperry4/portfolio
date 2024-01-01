@@ -26,7 +26,7 @@ const Footer = () => {
           <ul className="flex flex-col md:flex-row gap-4">
             <li>
               <a
-                href="mailto:katelynnperry99@gmail.com"
+                href="mailto:katelynn-perry@comcast.net"
                 className="nav-li text-2xl"
               >
                 <img
@@ -34,7 +34,7 @@ const Footer = () => {
                   src={dark ? emailWhite : email}
                   alt="email icon"
                 />
-                katelynnperry99@gmail.com
+                katelynn-perry@comcast.net
               </a>
             </li>
             <li>
@@ -72,7 +72,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="nav-li text-2xl"
-                href="https://drive.google.com/file/d/1LHvU-tMoVledHg6WFdYm3pPdqOftrivv/view"
+                href="https://drive.google.com/file/d/17VOUFzfoyXev5qaxozWeiWY74j7rv7B0/view?usp=sharing"
               >
                 <img
                   className="inline"
