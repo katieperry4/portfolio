@@ -72,7 +72,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="nav-li text-2xl"
-                href="https://drive.google.com/file/d/17VOUFzfoyXev5qaxozWeiWY74j7rv7B0/view?usp=sharing"
+                href="https://drive.google.com/file/d/1s0TLDF4KYB8-bf7FEB9bd-scWgbwd7M8/view?usp=sharing"
               >
                 <img
                   className="inline"
