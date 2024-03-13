@@ -9,15 +9,16 @@ const About = () => {
       <div className="flex flex-col items-center md:justify-evenly lg:flex-row gap-12">
         <div className={`expertise-div`}>
           <h3 className="banner-h3 underline text-xl py-4">
-            Frontend Development
+            Software Development
           </h3>
           <p>
-            —a web developer well-versed in HTML, CSS, JavaScript, React,
-            Tailwind, Git, and basic SQL. My expertise lies in front-end
-            development, where I merge technical skills with a passion for
-            creating seamless digital experiences. I specialize in crafting
-            user-centric interfaces and prototypes, aiming to marry
-            functionality with striking design elements.
+            —I am proficient in HTML, CSS, JavaScript, React, Git, and
+            PostgreSQL. I blend technical proficiency with a passion for
+            delivering seamless digital experiences. I aim to harmonize
+            functionality with captivating design elements. Currently, I am
+            expanding my skill set to include C#, .NET, ASP.NET Core MVC, and
+            Web API development, further enhancing my capabilities to offer
+            comprehensive software solutions.
           </p>
         </div>
         <div className={`expertise-div`}>
