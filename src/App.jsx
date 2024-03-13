@@ -2,7 +2,7 @@ import { useContext } from "react";
 import "./App.css";
 import { Home, Colors, Cats, Memory, Ombros, CMS } from "./Pages";
 import { ThemeContext } from "./Context/theme";
-import { Footer, Navbar } from "./components";
+import { Contact, Navbar } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
           <Route path="/projects/memory" element={<Memory />} />
           <Route path="/projects/cms" element={<CMS />} />
         </Routes>
-        <Footer />
+        <Contact />
       </Router>
     </div>
   );

@@ -44,9 +44,10 @@ html {
   margin: 1rem;
 }
 .nav-li:hover {
-  color: #e5625e;
+  color: #c4f1be;
   cursor: pointer;
-  font-weight: bold;
+  /* box-shadow: 5px 5px 5px black; */
+  outline: solid #5d4ca9;
 }
 
 .sidebar {
@@ -77,17 +78,28 @@ html {
 }
 
 .section-h1 {
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 /* work */
 .work-header {
   font-size: 3vw;
+  padding-bottom: 12px;
 }
 
 .work-subheader {
   font-size: 1.5rem;
   text-decoration: underline;
+}
+
+.work-li {
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 12px;
+  @media (min-width: 768px) {
+    width: 30%;
+  }
 }
 
 .card:hover {
@@ -115,7 +127,7 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #5d4ca9;
+  background-color: #c4f1be;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -133,7 +145,7 @@ html {
 }
 
 input:checked + .slider {
-  background-color: #c4f1be;
+  background-color: #5d4ca9;
 }
 
 input:focus + .slider {
@@ -162,4 +174,8 @@ input:checked + .slider:before {
   bottom: 20px;
   right: 30px;
   border-radius: 10px;
+}
+
+.contact-icon {
+  width: 2rem;
 }

@@ -11,8 +11,9 @@ import {
   linkedinWhite,
 } from "../assets/icons";
 
-const Footer = () => {
+const Contact = () => {
   const { dark } = useContext(ThemeContext);
+  let currentYear = new Date().getFullYear();
   return (
     <section
       id="contact"
@@ -27,10 +28,10 @@ const Footer = () => {
             <li>
               <a
                 href="mailto:katelynn-perry@comcast.net"
-                className="nav-li text-2xl"
+                className="nav-li text-xl"
               >
                 <img
-                  className="inline"
+                  className="inline contact-icon"
                   src={dark ? emailWhite : email}
                   alt="email icon"
                 />
@@ -41,11 +42,11 @@ const Footer = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                className="nav-li text-2xl"
+                className="nav-li text-xl"
                 href="https://uk.linkedin.com/in/katelynn-perry-6056ba204"
               >
                 <img
-                  className="inline"
+                  className="inline contact-icon"
                   src={dark ? linkedinWhite : linkedin}
                   alt="linkedin icon"
                 />
@@ -56,11 +57,11 @@ const Footer = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                className="nav-li text-2xl"
+                className="nav-li text-xl"
                 href="https://github.com/katieperry4"
               >
                 <img
-                  className="inline"
+                  className="inline contact-icon"
                   src={dark ? githubWhite : github}
                   alt="github icon"
                 />
@@ -71,11 +72,11 @@ const Footer = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                className="nav-li text-2xl"
+                className="nav-li text-xl"
                 href="https://drive.google.com/file/d/1s0TLDF4KYB8-bf7FEB9bd-scWgbwd7M8/view?usp=sharing"
               >
                 <img
-                  className="inline"
+                  className="inline contact-icon"
                   src={dark ? cvWhite : cv}
                   alt="cv icon"
                 />
@@ -85,8 +86,9 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <footer>&copy; Copyright {currentYear} Katelynn Perry</footer>
     </section>
   );
 };
 
-export default Footer;
+export default Contact;
