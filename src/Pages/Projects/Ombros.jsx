@@ -41,17 +41,17 @@ const Ombros = () => {
                 Lisbon, is a passionate family endeavor. Taking charge of their
                 digital footprint, I shaped their visual identity—crafting a
                 distinctive logo, defining a vibrant color palette, and setting
-                up their website. While it's currently a static site to
-                introduce them, it's primed for an exciting transformation into
-                an eCommerce hub. Alongside, I'm deep into refining their label
-                designs. <br></br>
+                up their website. While it&apos;s currently a static site to
+                introduce them, it&apos;s primed for an exciting transformation
+                into an eCommerce hub. Alongside, I&apos;m deep into refining
+                their label designs. <br></br>
                 <br></br>
-                Starting from the logo's inception, I seamlessly shifted gears
-                into enhancing the user experience. I scoped out the digital
-                landscape in Portugal, leveraging insights for an intuitive site
-                structure. This ongoing project reflects a collaborative effort
-                with the family, where design and content continually evolve for
-                a polished final touch.
+                Starting from the logo&apos;s inception, I seamlessly shifted
+                gears into enhancing the user experience. I scoped out the
+                digital landscape in Portugal, leveraging insights for an
+                intuitive site structure. This ongoing project reflects a
+                collaborative effort with the family, where design and content
+                continually evolve for a polished final touch.
               </p>
               <Link
                 to="https://dapper-brigadeiros-9bb1c4.netlify.app/"
@@ -84,10 +84,10 @@ const Ombros = () => {
           >
             <blockquote className="flex flex-col items-center">
               <p className="w-1/2 italic text-lg">
-                "We are really impressed with the speed and quality of Katie’s
-                work. She listens carefully to the clients needs but also does
-                her homework and is not afraid to come forward with suggestions
-                of her own."
+                &quot;We are really impressed with the speed and quality of
+                Katie&apos;s work. She listens carefully to the clients needs
+                but also does her homework and is not afraid to come forward
+                with suggestions of her own.&quot;
               </p>
               <cite>-Ombros do Montejunto</cite>
             </blockquote>
@@ -102,9 +102,10 @@ const Ombros = () => {
                 Crafting the brand identity for Ombros do Montejunto was a
                 nuanced process that aimed to encapsulate the essence of family,
                 heritage, and the stunning Montejunto mountain range. The logo
-                design ingeniously weaves together the 'O' of Ombros, the 'D' of
-                do, and the 'M' for Montejunto as an abstract representation of
-                the mountain range where their vineyards thrive.
+                design ingeniously weaves together the &apos;O&apos; of Ombros,
+                the &apos;D&apos; of do, and the &apos;M&apos; for Montejunto as
+                an abstract representation of the mountain range where their
+                vineyards thrive.
                 <br></br>
                 <br></br>
                 The color palette, predominantly greens and blues, echoes their
@@ -131,7 +132,7 @@ const Ombros = () => {
                 out information, every section was thoughtfully positioned to
                 ensure easy access and seamless exploration. This deliberate
                 arrangement empowers visitors to effortlessly find crucial
-                details about the winery's heritage, offerings, and story,
+                details about the winery&apos;s heritage, offerings, and story,
                 emphasizing clarity and user convenience.
               </p>
             </div>
@@ -139,12 +140,12 @@ const Ombros = () => {
             <h3 className="work-subheader">Wireframe</h3>
             <div className="flex flex-col items-center md:items-start md:flex-row gap-4 justify-center">
               <p className="w-1/2 md:w-1/3">
-                Visualizing the website's layout commenced with crafting a
+                Visualizing the website&apos;s layout commenced with crafting a
                 wireframe, offering a sneak peek into the envisioned design. The
                 homepage, a cornerstone of the online presence, was sketched to
-                highlight the family's story, embracing a user-friendly layout.
-                This wireframe serves as a blueprint, outlining the site's
-                envisioned structure and functionality.
+                highlight the family&apos;s story, embracing a user-friendly
+                layout. This wireframe serves as a blueprint, outlining the
+                site&apos;s envisioned structure and functionality.
               </p>
               <img
                 className="w-1/4 rounded"
@@ -163,13 +164,13 @@ const Ombros = () => {
               <p className="w-1/2 md:w-1/3">
                 The culmination of design and development efforts resulted in
                 the captivating final site. This dynamic digital space
-                spotlights the family's narrative, inviting visitors into their
-                world. A focal point is the incorporation of a mailing list, a
-                blog, and an Instagram widget, fostering engagement and allowing
-                enthusiasts to follow the winery's exciting journey. The
-                homepage reflects a harmonious blend of aesthetics and
-                functionality, encapsulating the essence of Ombros do
-                Montejunto's evolving identity.
+                spotlights the family&apos;s narrative, inviting visitors into
+                their world. A focal point is the incorporation of a mailing
+                list, a blog, and an Instagram widget, fostering engagement and
+                allowing enthusiasts to follow the winery&apos;s exciting
+                journey. The homepage reflects a harmonious blend of aesthetics
+                and functionality, encapsulating the essence of Ombros do
+                Montejunto&apos;s evolving identity.
               </p>
             </div>
             <Link

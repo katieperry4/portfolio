@@ -34,9 +34,9 @@ const Colors = () => {
                 generator I crafted using JavaScript. This project allows users
                 to play around with different hues, creating custom palettes
                 with ease. <br></br>
-                <br></br>It's a simple tool aimed at offering a bit of creative
-                fun, showcasing my endeavor to use JavaScript for crafting
-                user-friendly and interactive experiences.
+                <br></br>It&apos;s a simple tool aimed at offering a bit of
+                creative fun, showcasing my endeavor to use JavaScript for
+                crafting user-friendly and interactive experiences.
               </p>
               <Link
                 to="https://katies-color-palette.netlify.app/"

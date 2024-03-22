@@ -4,6 +4,7 @@
 
 #root {
   cursor: url(assets/cursor.png), auto;
+  cursor: url(assets/pointer.png) pointer;
 }
 
 html {

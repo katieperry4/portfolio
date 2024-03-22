@@ -34,8 +34,8 @@ const Memory = () => {
                 JavaScript. This project aims to entertain while exercising your
                 memory skills. Players can enjoy flipping cards to find matching
                 pairs in a colorful, user-friendly interface. <br></br>
-                <br></br>It's a humble creation that showcases my interest in
-                crafting enjoyable web experiences through JavaScript.
+                <br></br>It&apos;s a humble creation that showcases my interest
+                in crafting enjoyable web experiences through JavaScript.
               </p>
               <Link
                 to="https://katies-memory-game.netlify.app/"
