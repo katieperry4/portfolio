@@ -18,8 +18,9 @@ const Work = () => {
       <div className="py-12">
         <h3 className="work-header">Projects</h3>
         <ul className="flex flex-col md:flex-row md:flex-wrap gap-4">
-          <li className="work-li card">
+          <li className="work-li card clickable">
             <Link
+              className="clickable"
               to="/projects/ombros"
               onClick={() => {
                 window.scroll({
@@ -30,7 +31,7 @@ const Work = () => {
               }}
             >
               <img
-                className="rounded w-full"
+                className="rounded w-full "
                 src={ombros}
                 alt="A screenshot of Ombros do Montejunto webpage"
               />
@@ -40,6 +41,7 @@ const Work = () => {
           </li>
           <li className="work-li card">
             <Link
+              className="clickable"
               to="/projects/cms"
               onClick={() => {
                 window.scroll({
@@ -60,6 +62,7 @@ const Work = () => {
           </li>
           <li className="work-li card">
             <Link
+              className="clickable"
               to="projects/cats"
               onClick={() => {
                 window.scroll({
@@ -80,6 +83,7 @@ const Work = () => {
           </li>
           <li className="work-li card">
             <Link
+              className="clickable"
               to="projects/memory"
               onClick={() => {
                 window.scroll({
@@ -101,6 +105,7 @@ const Work = () => {
           {/* colors */}
           <li className="work-li card">
             <Link
+              className="clickable"
               to="projects/colors"
               onClick={() => {
                 window.scroll({

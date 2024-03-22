@@ -58,14 +58,14 @@ const Navbar = () => {
               </a>
             </ul>
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden clickable">
             <button
               aria-label="menu"
               onClick={toggleNavbar}
-              className="text-white focus:outline-none w-10 h-10"
+              className="text-white focus:outline-none w-10 h-10 clickable"
             >
               <svg
-                className="w-10 h-10"
+                className="w-10 h-10 clickable"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"

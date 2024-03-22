@@ -4,7 +4,23 @@
 
 #root {
   cursor: url(assets/cursor.png), auto;
-  cursor: url(assets/pointer.png) pointer;
+  /* cursor: url(assets/pointer.png), pointer; */
+}
+
+button:hover {
+  cursor: url(assets/pointer.png), pointer;
+}
+
+.nav-li:hover {
+  cursor: url(assets/pointer.png), pointer;
+}
+
+.nav-logo:hover {
+  cursor: url(assets/pointer.png), pointer;
+}
+
+.clickable:hover {
+  cursor: url(assets/pointer.png), pointer;
 }
 
 html {
@@ -46,7 +62,6 @@ html {
 }
 .nav-li:hover {
   color: #c4f1be;
-  cursor: pointer;
   /* box-shadow: 5px 5px 5px black; */
   outline: solid #5d4ca9;
 }
@@ -105,6 +120,7 @@ html {
 
 .card:hover {
   opacity: 80%;
+  cursor: url(assets/pointer.png), pointer;
 }
 
 /* dark mode slider */
@@ -131,6 +147,10 @@ html {
   background-color: #c4f1be;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+}
+
+.slider:hover {
+  cursor: url(assets/pointer.png), pointer;
 }
 
 .slider:before {
