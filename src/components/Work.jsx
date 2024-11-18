@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { cmsBlog, colors, memory, catFilter } from "../assets/work";
+import { cmsBlog, colors, memory, catFilter, TTTHome, AppViewCourse, AppViewCourseCropped, SCHAppointments, INProduct } from "../assets/work";
 import ombros from "../assets/work/ombros.webp";
 const Work = () => {
   return (
@@ -18,6 +18,90 @@ const Work = () => {
       <div className="py-12">
         <h3 className="work-header">Projects</h3>
         <ul className="flex flex-col md:flex-row md:flex-wrap gap-4">
+        <li className="work-li card clickable">
+            <Link
+              className="clickable"
+              to="/projects/teatimetracker"
+              onClick={() => {
+                window.scroll({
+                  top: 0,
+                  left: 0,
+                  behavior: "smooth",
+                });
+              }}
+            >
+              <img
+                className="rounded w-full "
+                src={TTTHome}
+                alt="A screenshot of Ombros do Montejunto webpage"
+              />
+              <h3 className="text-2xl">Teatime Tracker</h3>
+              <h4>C#, ASP.Net Core MVC, SQLServer, Azure</h4>
+            </Link>
+          </li>
+        <li className="work-li card clickable">
+            <Link
+              className="clickable"
+              to="/projects/termtracker"
+              onClick={() => {
+                window.scroll({
+                  top: 0,
+                  left: 0,
+                  behavior: "smooth",
+                });
+              }}
+            >
+              <img
+                className="rounded w-full "
+                src={AppViewCourseCropped}
+                alt="A screenshot of the term tracker app course page"
+              />
+              <h3 className="text-2xl">Term Tracker Mobile App</h3>
+              <h4>C#, .NET MAUI, SQLite</h4>
+            </Link>
+          </li>
+        <li className="work-li card clickable">
+            <Link
+              className="clickable"
+              to="/projects/appointments"
+              onClick={() => {
+                window.scroll({
+                  top: 0,
+                  left: 0,
+                  behavior: "smooth",
+                });
+              }}
+            >
+              <img
+                className="rounded w-full "
+                src={SCHAppointments}
+                alt="Appointments page of the schedule app"
+              />
+              <h3 className="text-2xl">Appointment Scheduler</h3>
+              <h4>C#, WinForms, MySQL</h4>
+            </Link>
+          </li>
+        <li className="work-li card clickable">
+            <Link
+              className="clickable"
+              to="/projects/inventory"
+              onClick={() => {
+                window.scroll({
+                  top: 0,
+                  left: 0,
+                  behavior: "smooth",
+                });
+              }}
+            >
+              <img
+                className="rounded w-full "
+                src={INProduct}
+                alt="A screenshot of the inventory application edit product page"
+              />
+              <h3 className="text-2xl">Inventory Application</h3>
+              <h4>C#, WinForms</h4>
+            </Link>
+          </li>
           <li className="work-li card clickable">
             <Link
               className="clickable"

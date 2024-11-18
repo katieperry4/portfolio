@@ -1,9 +1,10 @@
 import { useContext } from "react";
 import "./App.css";
-import { Home, Colors, Cats, Memory, Ombros, CMS } from "./Pages";
+import { Home, Colors, Cats, Memory, Ombros, CMS, Inventory, TeaTracker, TermTracker, Appointments } from "./Pages";
 import { ThemeContext } from "./Context/theme";
 import { Contact, Navbar } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App() {
   const { dark } = useContext(ThemeContext);
@@ -20,6 +21,10 @@ function App() {
           <Route path="/projects/colors" element={<Colors />} />
           <Route path="/projects/memory" element={<Memory />} />
           <Route path="/projects/cms" element={<CMS />} />
+          <Route path="/projects/teatimetracker" element={<TeaTracker />} />
+          <Route path="/projects/termtracker" element={<TermTracker />} />
+          <Route path="/projects/inventory" element={<Inventory />} />
+          <Route path="/projects/appointments" element={<Appointments />} />
         </Routes>
         <Contact />
       </Router>

@@ -6,19 +6,16 @@ const About = () => {
   return (
     <div id="about" className="flex flex-col pt-24 pb-18 px-4 md:px-32 ">
       <h2 className="section-h1 mb-12 ">Expertise</h2>
-      <div className="flex flex-col items-center md:justify-evenly lg:flex-row gap-12">
+      <div className="flex flex-col items-start  md:justify-evenly lg:flex-row gap-12">
         <div className={`expertise-div`}>
           <h3 className="banner-h3 underline text-xl py-4">
             Software Development
           </h3>
           <p>
-            —I am proficient in HTML, CSS, JavaScript, React, Git, and
-            PostgreSQL. I blend technical proficiency with a passion for
-            delivering seamless digital experiences. I aim to harmonize
-            functionality with captivating design elements. Currently, I am
-            expanding my skill set to include C#, .NET, ASP.NET Core MVC, and
-            Web API development, further enhancing my capabilities to offer
-            comprehensive software solutions.
+            —I hold a B.S. in Software Engineering and have experience with in front-end technologies like HTML, CSS, JavaScript, and React. 
+            Alongside back-end development with C#, ASP.NET Core, and several relational database technologies. 
+            I also have experience with cloud technologies such as Azure and cross-platform development using .NET MAUI. 
+            
           </p>
         </div>
         <div className={`expertise-div`}>
