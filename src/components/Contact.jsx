@@ -80,7 +80,7 @@ const Contact = () => {
                   src={dark ? cvWhite : cv}
                   alt="cv icon"
                 />
-                CV
+                Resume
               </a>
             </li>
           </ul>
