@@ -43,7 +43,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="nav-li text-xl"
-                href="https://uk.linkedin.com/in/katelynn-perry-6056ba204"
+                href="https://www.linkedin.com/in/katelynn-perry-6056ba204"
               >
                 <img
                   className="inline contact-icon"
@@ -73,7 +73,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="nav-li text-xl"
-                href="https://drive.google.com/file/d/1fEky4u8RjfZsUP7dUlNLMq-y9Vee54CV/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ptmqReEyyrLRWfHsDdUs1gFLsRnwYxGj/view?usp=sharing"
               >
                 <img
                   className="inline contact-icon"
