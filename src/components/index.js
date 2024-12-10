@@ -5,4 +5,5 @@ import Contact from "./Contact";
 import Arrow from "./Arrow";
 import Work from "./Work";
 import Testimonials from "./Testimonials";
-export { Navbar, Banner, About, Contact, Arrow, Work, Testimonials };
+import API from "./API";
+export { Navbar, Banner, About, Contact, Arrow, Work, Testimonials, API };

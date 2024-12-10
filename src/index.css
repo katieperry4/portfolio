@@ -201,3 +201,8 @@ input:checked + .slider:before {
 .contact-icon {
   width: 2rem;
 }
+
+
+.dropdown-option {
+  background-color: #171a21;
+}
