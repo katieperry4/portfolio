@@ -29,7 +29,7 @@ const API = () => {
               dark
                 ? "bg-violet hover:bg-light-red"
                 : "bg-tea-green hover:bg-light-red"
-            }`}><a href="https://github.com/katieperry4/resume-api">GitHub</a></button>
+            }`}><a target="_blank" href="https://github.com/katieperry4/resume-api">GitHub</a></button>
             </div>
             <label className="pt-8" >Select Topic:</label>
             <select name="APISelect" onChange={handleSelection}>
