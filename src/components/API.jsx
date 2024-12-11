@@ -21,7 +21,7 @@ const API = () => {
             .catch((error) => console.log(error));
     }
     return (
-        <div className="flex flex-col items-center m-16 gap-2 pt-8">
+        <div className="flex flex-col items-center m-16 gap-2 pt-8" id="resumeAPI">
             <h2 className="text-3xl">Get to Know Me Via API:</h2>
             <div className="flex flex-col md:flex-row gap-4 items-center">
                 <h4 className="text-xs">Built with Node, Express, and Vercel.</h4>
