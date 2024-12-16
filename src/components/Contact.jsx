@@ -73,7 +73,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="nav-li text-xl"
-                href="https://drive.google.com/file/d/1UOFL1iErLv0CmhqhGSyhLuMin6fUUmqn/view?usp=sharing"
+                href="https://drive.google.com/file/d/1LJfnVP_DvXKyk6ASgQCH_4Q-puenWr6w/view?usp=sharing"
               >
                 <img
                   className="inline contact-icon"
