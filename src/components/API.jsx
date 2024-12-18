@@ -42,8 +42,8 @@ const API = () => {
             </select>
             <div id="ResponseContainer" className="flex flex-col items-center w-1/2 md:w-2/3">
                 <h1 id="APIHeader"></h1>
-                <pre >
-                    <p className="w-1/2 md:w-2/3 text-xs" id="APIResponseHolder"></p>
+                <pre id="APIResponseHolder" className="w-full text-xs whitespace-pre-wrap break-word md:break-keep">
+                    
                 </pre>
             </div>
         </div>

@@ -14,7 +14,7 @@ const Banner = () => {
     >
       <div>
         <h1 className="banner-h1">Katie Perry</h1>
-        <h2 className="banner-h3">Software Developer</h2>
+        <h2 className="banner-h3">Software Engineer</h2>
       </div>
       <div>
         <img

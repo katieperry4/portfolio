@@ -9,14 +9,12 @@ const Work = () => {
         <p className="md:w-1/2">
           Welcome to my portfolio! Here, I showcase a blend of personal and
           professional projects that highlight my journey and passion for
-          crafting engaging digital experiences. Explore a curated collection
-          that features both personal endeavors and a professional project,
-          offering a glimpse into my creative endeavors and technical expertise.
+          programming. 
         </p>
       </div>
       {/* React Projects */}
       <div className="py-12">
-        <h3 className="work-header">Projects</h3>
+        {/* <h3 className="work-header">Projects</h3> */}
         <ul className="flex flex-col md:flex-row md:flex-wrap gap-4">
         <li className="work-li card clickable">
             <Link
