@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import "./App.css";
-import { Home, Colors, Cats, Memory, Ombros, CMS, Inventory, TeaTracker, TermTracker, Appointments } from "./Pages";
+import { Home, Colors, Cats, Memory, Ombros, CMS, Inventory, TeaTracker, TermTracker, Appointments, BlockIsland } from "./Pages";
 import { ThemeContext } from "./Context/theme";
 import { Contact, Navbar } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -25,6 +25,7 @@ function App() {
           <Route path="/projects/termtracker" element={<TermTracker />} />
           <Route path="/projects/inventory" element={<Inventory />} />
           <Route path="/projects/appointments" element={<Appointments />} />
+          <Route path="/projects/blockisland" element={<BlockIsland/>}/>
         </Routes>
         <Contact />
       </Router>

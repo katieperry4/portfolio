@@ -31,6 +31,9 @@ import SCHReports from "./SCHReports.webp";
 import INHome from "./INHome.webp";
 import INPart from "./INPart.webp";
 import INProduct from "./INProduct.webp";
+import BIFull from "./BIFull.webp";
+import BIZoom from "./BIZoom.webp";
+import Lambda from "./Lambda.webp";
 
 
 export {
@@ -66,5 +69,8 @@ export {
   SCHReports,
   INHome,
   INPart,
-  INProduct
+  INProduct,
+  BIFull,
+  BIZoom,
+  Lambda
 };

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { cmsBlog, colors, memory, catFilter, TTTHome, AppViewCourse, AppViewCourseCropped, SCHAppointments, INProduct } from "../assets/work";
+import { BIZoom, cmsBlog, colors, memory, catFilter, TTTHome, AppViewCourse, AppViewCourseCropped, SCHAppointments, INProduct } from "../assets/work";
 import ombros from "../assets/work/ombros.webp";
 const Work = () => {
   return (
@@ -19,6 +19,27 @@ const Work = () => {
         <li className="work-li card clickable">
             <Link
               className="clickable"
+              to="/projects/blockisland"
+              onClick={() => {
+                window.scroll({
+                  top: 0,
+                  left: 0,
+                  behavior: "smooth",
+                });
+              }}
+            >
+              <img
+                className="rounded w-full "
+                src={BIZoom}
+                alt="A screenshot of Block Island 3D Render"
+              />
+              <h3 className="text-2xl">Block Island LiDAR Render</h3>
+              <h4>Python, AWS, JavaScript, React.js, Three.js</h4>
+            </Link>
+          </li>
+        <li className="work-li card clickable">
+            <Link
+              className="clickable"
               to="/projects/teatimetracker"
               onClick={() => {
                 window.scroll({
@@ -31,7 +52,7 @@ const Work = () => {
               <img
                 className="rounded w-full "
                 src={TTTHome}
-                alt="A screenshot of Ombros do Montejunto webpage"
+                alt="A screenshot of TeaTime Tracker Homepage"
               />
               <h3 className="text-2xl">Teatime Tracker</h3>
               <h4>C#, ASP.Net Core MVC, SQLServer, Azure</h4>
